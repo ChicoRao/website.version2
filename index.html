@@ -1,0 +1,422 @@
+<!-- Tasks
+1. Hover for demo and view code button
+2. Add skill -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Custom Favicon -->
+    <!-- Need to change since not transparent -->
+    <link rel="shortcut icon" href="images/web-icon.ico">
+
+    <title>Rico Chao</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Typing animation javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  </head>
+
+  <body id="page-body">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+      <div class="container">
+        <a class="navbar-brand" href="#welcome">R I C O</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiences">Experiences</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <header id="welcome">
+      <div class="container justify-content-center" id="welcome-bg-text">
+        <h1 class="display-3" style="font-size: 90px;">RICO CHAO</h1>
+        <h4>Hello! I am <span id="typed"></span></h4>
+        <a href="#projects" class="btn btn-outline-light welcome-project-button">
+          Check out my work >
+        </a>
+        <ul class="nav justify-content-center contact-list">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/rico-chao-a9b706162/">
+              <img class="icon" src="images/contact/linkedin.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/ChicoRao">
+              <img class="icon" src="images/contact/github.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:ricochao114@gmail.com">
+              <img class="icon" id="mail-icon" src="images/contact/mail.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about-section">
+      <div class="container">
+        <div class="section-title" style="background-color:rgb(91, 236, 152);">
+          <h2>About Me</h2>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <img class="portrait-image" src="images/mypic.jpg"/>
+          </div>
+          <div class="col-lg-7 mx-auto justify-content-center">
+            <h3 style="font-weight: bold; margin-top: 15px; margin-bottom: 15px;">I am a passionate learner!</h3>
+            <p>
+              I am currently studying at SFU Engineering as a computer engineering
+              student.
+            </p>
+            <p>
+              I am always interested in learning new things and I enjoy coding, 
+              joining hackathons, and developing software personal projects to 
+              solve my daily inconviences.
+            </p>
+            <p>
+              My other hobbies include playing badminton, playing boarding games 
+              with my friends, and travelling.
+            </p>
+            <p>
+              My long term goal is to become a software engineer and work together with 
+              talented and passionate individuals to provide innovative 
+              solutions to real world problems.
+            </p>
+            <p>
+              <strong>Fun Fact</strong>: One of my favourite games is Minesweeper. I enjoy playing 
+              Minesweeper because it is a very simple game that can exercise my mind.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="container" id="skills">
+        <div>
+          <h3>Skills</h3>
+        </div>
+        <div class="container skill-box">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <h4>Programming Language</h4>
+              <hr>
+              <hr>
+              <ul style="list-style-type: circle;">
+                <li class="skill-element">C++</li>
+                <li class="skill-element">C</li>
+                <li class="skill-element">Android Java</li>
+                <li class="skill-element">Swift</li>
+                <li class="skill-element">HTML5</li>
+                <li class="skill-element">Javascript</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <h4>Development Tools</h4>
+              <hr>
+              <hr>
+              <ul style="list-style-type: circle;">
+                <li class="skill-element">Microsoft Visual Studio</li>
+                <li class="skill-element">Visual Studio Code</li>
+                <li class="skill-element">Android Studio</li>
+                <li class="skill-element">Eclipse</li>
+                <li class="skill-element">XCode</li>
+                <li class="skill-element">Quartus II</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <h4>Operating Systems</h4>
+              <hr>
+              <hr>
+              <ul style="list-style-type: circle;">
+                <li class="skill-element">Windows</li>
+                <li class="skill-element">Linux</li>
+                <li class="skill-element">C++</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-title" style="background-color:rgb(255, 170, 128);">
+          <h2>Projects</h2>
+        </div>
+        <div class="container project-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6">
+              <img class="project-img" src="images/project/DebtTracker.jpg"/>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <h3>DebtTracker  <span class="type">Personal Project</span></h3>
+              <div class="tags"><span class="tag">XCode</span><span class="tag">Swift</span></div>
+              <p>> Implemented a simple app to help me with my daily inconvenience of keeping
+                track of who owes me money and who I owe money to
+              </p>
+              <p>> Improved my Swift coding skills and my iOS app UI designing skills</p>
+              <p>> Utilized core data to retreive and store data</p>
+              <div class="project-buttons">
+                <form action="https://github.com/ChicoRao/Debt-Tracker">
+                  <button class="project-button" type="submit">
+                    <img class="button-icon" src="images/project/github-button.png">
+                  <span>View Code</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container project-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6">
+              <img class="project-img" src="images/project/NeuroKinetic.png"/>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <h3>NeuroKinetics  <span class="type">Software Development Project</span></h3>
+              <div class="tags"><span class="tag">XCode</span><span class="tag">Swift</span><span class="tag">Firebase</span></div>
+              <p>> Learned about native iOS developement through working with Swift and software development cycle</p>
+              <p>> Managed the team as the project manager and ensured that the team is working in an enjoyable 
+                environment while making sure that work is delivered before deadline
+              </p>
+              <p>> Developed an iOS app that aims to help Parkinson's patients with their symptoms through three simple games</p>
+              <div class="project-buttons">
+                <form action="https://github.com/Antonio-Kim/CMPT275Project">
+                  <button class="project-button" type="submit">
+                    <img class="button-icon" src="images/project/github-button.png">
+                  <span>View Code</span>
+                  </button>
+                </form>
+                <!-- <form action="https://www.youtube.com/watch?v=Mk-ggkevi80">
+                  <button class="project-button" type="submit">
+                    <img class="button-icon" src="images/project/demo-button.png">
+                  <span>Watch Demo</span>
+                  </button>
+                </form> -->
+                <div class="project-buttons">
+                  <button class="project-button">
+                    <img class="button-icon" src="images/project/github-button.png">
+                    <span><a class="project-link" href="https://www.youtube.com/watch?v=Mk-ggkevi80">Watch Demo</a></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container project-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6">
+              <img class="project-img" src="images/project/embedded-systems.png"/>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <h3>Xmodem File Transfer Protocol  <span class="type">Embedded System Project</span></h3>
+              <div class="tags"><span class="tag">C++</span><span class="tag">Eclipse</span></div>
+              <p>> Applied multithreading knowledge such as threads, mutexes, condition variables, etc 
+                in the implementation of the Xmodem File Transfer Protocol
+              </p>
+              <p>> Learned about the the xmodem file transfer protocol</p>
+              <p>> Created a functional Xmodem file transfer program free of data race and deadlocks</p>
+              <div class="project-buttons">
+                <form action="https://github.com/ChicoRao/XmodemFileTransferProject">
+                  <button class="project-button" type="submit">
+                    <img class="button-icon" src="images/project/github-button.png">
+                  <span>View Code</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container project-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6">
+              <img style="display: inline-block; margin-left: 5px;" src="images/project/doublyLL.png"/>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <h3>C++ Doubly Linked List  <span class="type">Data Structure Project</span></h3>
+              <div class="tags"><span class="tag">C++</span><span class="tag">Data Structure</span></div>
+              <p>> Demonstrated the use of C++ OOP skills through implementing the doubly linked list</p>
+              <p>> Created different test cases to test all the functions in the doubly linked list</p>
+              <p>> Researched different ways to create an efficient dynamic data strucutre</p>
+              <!-- <form action="">
+                  <button class="project-button" type="submit">
+                    <img class="button-icon" src="images/project/github-button.png">
+                  <span>View Code</span>
+                  </button>
+                </form> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="text-align: center;">
+          <form action="https://github.com/ChicoRao">
+            <button class="more-projects-button" type="submit"><span>Check out more projects on Github!</span></button>
+          </form>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Experiences Section -->
+    <section id="experiences">
+      <div class="container">
+        <div class="section-title" style="background-color:rgb(255, 230, 128);">
+          <h2>Experiences</h2>
+        </div>
+        <div class="container experience-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6">
+              <img class="experience-img" src="images/experiences/tutor.png"/>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <h3>Private Tutor</h3>
+              <h4 class="position">Math Tutor</h4>
+              <p class="duration">September 2018 - Present</p>
+              <p>> Gained some experience in tutoring math through creating homework sets and 
+                quizzes to make sure that the student understands the math concepts
+              </p>
+              <p>> Helped the student with improving their ability to think critically and
+                their problem solving skills</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container experience-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6">
+              <img class="experience-img" src="images/experiences/piccolo.png"/>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <h3>Piccolo Software</h3>
+              <h4 class="position">Junior Software Developer Co-op</h4>
+              <p class="duration">September 2018 - May 2019</p>
+              <p>> Responsible for maintaining and implementing new features to an Android app 
+                used by taxi companies
+              </p>
+              <p>> Created web map with javascript which allows the Android taxi app to load a 
+                web map for drivers to track the customer's location, their own location, 
+                and the calculated route between both locations
+              </p>
+              <p>> Implemented methods that allow the Android app to interact with server side 
+                using TCP/UDP communication protocols
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container experience-item">
+          <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6">
+              <img class="experience-img" src="images/experiences/nike-logo.png"/>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <h3>Nike</h3>
+              <h4 class="position">Sales Associate</h4>
+              <p class="duration">February - December 2017</p>
+              <p>> Enchanced my interpersonal skills through interacting with customers and selling
+                Nike apparel and footwear
+              </p>
+              <p>> Learned the importance of teamwork through work with my coworkers as a team 
+                to ensure that the store reaches its daily sales goal
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div id="footer-note">
+        Designed by Rico Chao
+      </div>
+      <div id="footer-contact-list">
+        <ul class="nav justify-content-center contact-list">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/rico-chao-a9b706162/">
+              <img class="icon" src="images/contact/linkedin.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/ChicoRao">
+              <img class="icon" src="images/contact/github.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:ricochao114@gmail.com">
+              <img class="icon" id="mail-icon" src="images/contact/mail.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
